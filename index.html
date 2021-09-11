@@ -21,12 +21,12 @@
         <div class="max-width">
             <div class="logo"><a href="#">Portf<span>olio</span></a></div>
             <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Hobbies</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#business">Business</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -40,16 +40,40 @@
             <div class="home-content">
                 <div class="text-1">Hello, I'm</div>
                 <div class="text-2">Dani Mihály Árpád</div>
+
+                        <div class="home-content2 text-change1">Programmer</div>
+                        <div class="home-content2 text-change2">Entrepenuer</div>
+                        <div class="home-content2 text-change3">Investor</div>
+                        <div class="home-content2 text-change4">Future Millioner</div>
+                    
             </div>
         </div>
     </section>
-    
     <!--ABOUT SECTION-->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About Me</h2>
+                <div style="background-color: brown; width: 100%; height: 30rem;">
+            
+                </div>
+
+        </div>
+    </section>
+    <!--Project SECTION-->
+    <section class="about" id="projects">
+        <div class="max-width">
+            <h2 class="title">Projects</h2>
+            <div class="business-content">
+                <div style="background-color: rgb(123, 228, 36); width: 100%; height: 30rem;">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--BUSINESS SECTION-->
     <section class="business" id="business">
         <div class="max-width">
             <h2 class="title">My Businesses</h2>
             <div class="business-content">
-
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-utensils"></i>
@@ -75,5 +99,40 @@
             </div>
         </div>
     </section>
-</body> <script src="script.js"></script>
+
+        <!--Skills SECTION-->
+        <section class="skills" id="skills">
+            <div class="max-width">
+                <h2 class="title">Skills</h2>
+                <div class="skills-content">
+                    <div style="background-color: rgb(123, 228, 36); width: 100%; height: 30rem;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Contact SECTION-->
+        <section class="contact" id="contact">
+            <div class="max-width">
+                <h2 class="title">Contact</h2>
+                <div class="contact-content">
+                    <div style="background-color: rgb(195, 0, 255); width: 100%; height: 30rem;">
+                    </div>
+                </div>
+            </div>
+        </section>
+</body> 
+<script src="script.js"></script>
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+</script>
+
 </html>
