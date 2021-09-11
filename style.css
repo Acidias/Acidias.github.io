@@ -133,6 +133,10 @@ html{
     width: 100%;
     height: 100%;
 }
+.about-text{
+    width: 67%;
+    height: 100%;
+}
 /*BUSINESSES SECTION*/
 .business-content{
     display: flex;
