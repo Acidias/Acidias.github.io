@@ -136,8 +136,7 @@ html{
 .column-right{
     padding: 5px 20px 5px 20px;
 }
-<<<<<<< Updated upstream
-=======
+
 .about-text{
     width: 67%;
     font-family: 'Anton', sans-serif;
@@ -253,7 +252,7 @@ html{
   .owl-carousel button.owl-dot {
     outline: 0;
   }
->>>>>>> Stashed changes
+  
 /*BUSINESSES SECTION*/
 .business-content{
     display: flex;
