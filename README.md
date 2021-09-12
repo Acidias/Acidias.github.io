@@ -7,9 +7,16 @@ When I finished with project I will upload the Finished code to main branch (and
 
 Recent Comment UP. Older comments down...
 > P.S Sorry for my Perfect English, it could be worse... :P
+# 9/11/2021:
+-Today I made a good progress with szekelytur.weblog.rs (in the future szekelytur.com) website. I need pictures about the hostel and pansion to finish the site. I belive I need only few more hours to finish everything.
+
+-I bought my first ever domain acidias.co.uk trought the aws and somehow I connected this main repositori to the aws, so every git i update here is visible on the domain ^^
+it was so easy or I'm soo good for this.
+
+-It's already 9-12 and I'm not feeling very good but I should finish the "about" section on my portfolio site.
 
 
-# 9.11.2021:
+# 9.10.2021:
 -OK, if I create a new branch thats mean I created a new version? If yes I learned it.
 
 -Few minutes later...
