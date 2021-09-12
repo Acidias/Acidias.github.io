@@ -152,107 +152,58 @@ html{
 }
 
 /* PROJECTS SECTION*/
-  
-  .gtco-testimonials {
+.projects{
+    display: flex;
+    justify-content: center;
+}
+.carousel {
+    max-width: 700px;
     position: relative;
-    margin-top: 30px;
-  }
-  .gtco-testimonials h2 {
-    font-size: 30px;
+}  
+.carousel .carousel-item .project-text{
     text-align: center;
-    color: #333333;
-    margin-bottom: 50px;
-  }
-  .gtco-testimonials .owl-stage-outer {
-    padding: 30px 0;
-  }
-  .gtco-testimonials .owl-nav {
+    font-size: 16px;
+    font-family: 'Anton', sans-serif;
+    margin: 16px 0;
+}
+.carousel .carousel-item, .carousel .carousel-item-hidden{
     display: none;
-  }
-  .gtco-testimonials .owl-dots {
-    text-align: center;
-  }
-  .gtco-testimonials .owl-dots span {
-    position: relative;
-    height: 10px;
-    width: 10px;
-    border-radius: 50%;
+}
+.carousel .carousel-item img{
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+}
+
+.carousel .carousel-item-visible{
     display: block;
-    background: #fff;
-    border: 2px solid #01b0f8;
-    margin: 0 5px;
-  }
-  .gtco-testimonials .owl-dots .active {
-    box-shadow: none;
-  }
-  .gtco-testimonials .owl-dots .active span {
-    background: #01b0f8;
-    box-shadow: none;
-    height: 12px;
-    width: 12px;
-    margin-bottom: -1px;
-  }
-  .gtco-testimonials .card {
-    background: #fff;
-    box-shadow: 0 8px 30px -7px #c9dff0;
-    margin: 0 20px;
-    padding: 0 10px;
-    border-radius: 20px;
+}
+.carousel .carousel-action{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel .carousel-action button{
     border: 0;
-  }
-  .gtco-testimonials .card .card-img-top {
-    max-width: 100px;
-    border-radius: 50%;
-    margin: 15px auto 0;
-    box-shadow: 0 8px 20px -4px #95abbb;
-    width: 100px;
-    height: 100px;
-  }
-  .gtco-testimonials .card h5 {
-    color: #01b0f8;
-    font-size: 21px;
-    line-height: 1.3;
-  }
-  .gtco-testimonials .card h5 span {
-    font-size: 18px;
-    color: #666666;
-  }
-  .gtco-testimonials .card p {
-    font-size: 18px;
-    color: #555;
-    padding-bottom: 15px;
-  }
-  .gtco-testimonials .active {
-    opacity: 0.5;
-    transition: all 0.3s;
-  }
-  .gtco-testimonials .center {
-    opacity: 1;
-  }
-  .gtco-testimonials .center h5 {
-    font-size: 24px;
-  }
-  .gtco-testimonials .center h5 span {
-    font-size: 20px;
-  }
-  .gtco-testimonials .center .card-img-top {
-    max-width: 100%;
-    height: 120px;
-    width: 120px;
-  }
-  
-  @media (max-width: 767px) {
-    .gtco-testimonials {
-      margin-top: 20px;
-    }
-  }
-  .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
-    outline: 0;
-  }
-  .owl-carousel button.owl-dot {
-    outline: 0;
-  }
-  
+    background: rgba(221, 221, 221, 0.387);
+    cursor: pointer;
+    font-weight: bold;
+    width: 50px;
+    height: 100%;
+}
+.carousel .carousel-action #carousel-action-prev{
+    transform:translateX(-50px)
+}
+.carousel .carousel-action #carousel-action-next{
+    transform:translateX(50px)
+}
+
+
 /*BUSINESSES SECTION*/
 .business-content{
     display: flex;

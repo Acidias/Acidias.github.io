@@ -12,7 +12,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
 </head>
 <body>
     <!--NAVBAR-->
@@ -51,25 +50,19 @@
     <section class="about" id="about">
         <div class="max-width">
             <h2 class="title">About Me</h2>
-
-                <div style="background-color: brown; width: 100%; height: 30rem;">
-                    <div class="about-pic">
-                        <img class="prof-pic" src="img/smallprof.png">
-                    </div>
-
             <div class="about-content">
                 <div class="column-left about-pic">
                     <img class="prof-pic" src="img/smallprof.png">
                 </div>
                 <div class="column-right text about-text">
                     <span>
-                        Hi asdthere!
                         Hi there!
                         I Created this site to collect all my Projects and Businesses. Maybe one day I will share here my investing Portfolio as well.
-                        All the requitment team who is here to hire me I just wanna say, I'm not a professional programmer, but sitting front of the computer for hourse
-                        the thing what I really enjoy. No matter I'm learn a new programm language or loking for a good compani to invest in and making analysis about it. I love 
+                        All the requitment team who is here to hire me I just wanna say, I'm not a professional programmer, but sitting front of the computer for hours
+                        the thing what I really enjoy. No matter I'm learning a new programm language or looking for a good company to invest in and making analysis about it. I love 
                         these things too much, even if I'm not paid for it, all my free time I invest to learn something new. 
-                        The site may not be finished. Come back later if its looking bad. :)
+                        The site may not be finished. Come back later if its looking bad. First I want to finish all section and after working to make it looking nice :)
+                    <h6>last update: 9/12/21</h6>
                     </span>
                 </div>
 
@@ -78,17 +71,43 @@
 
         </div>
     </section>
+
+
     <!--Project SECTION-->
     <section class="projects" id="projects">
         <div class="max-width">
             <h2 class="title">Projects</h2>
-            <div class="business-content">
-                <div style="background-color: rgb(123, 228, 36); width: 100%; height: 30rem;">
+            <div class="carousel">
+                <div class="carousel-item carousel-item-visible">
+                    <div class="project-text">
+                        <p>Hee I'm gonna write some text about the project you can see belowe</p>
+                    </div>
+                    <img src="img/project-dani.jpg">
                 </div>
+                <div class="carousel-item">
+                    <div class="project-text">
+                        <p>Here I'm gonna write some text about the project you can see belowe</p>
+                    </div>    
+                    <img src="img/bannerpp.jpg">
+                </div>
+                <div class="carousel-item">
+                    <div class="project-text">
+                        <p>Here I'm gonna write some text about the project you can see belowe</p>
+                    </div>
+                    <img src="img/banner.jpg">
+                </div>
+                    <div class="carousel-action">
+                        <button id="carousel-action-prev"><</button>
+                        <button id="carousel-action-next">></button>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </section>
     <!--BUSINESS SECTION-->
+
+
     <section class="business" id="business">
         <div class="max-width">
             <h2 class="title">My Businesses</h2>
@@ -142,6 +161,7 @@
         </section>
 </body> 
 <script src="script.js"></script>
+<script src="carousel.js"></script>
 <script>
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
