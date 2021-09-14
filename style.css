@@ -181,27 +181,19 @@ html{
 .carousel .carousel-action{
     display: flex;
     width: 100%;
-    height: 100%;
+    height: 50%;
     justify-content: space-between;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
 }
 
 .carousel .carousel-action button{
     border: 0;
-    background: rgba(221, 221, 221, 0.387);
+    background: rgba(76, 76, 76, 0.102);
     cursor: pointer;
     font-weight: bold;
-    width: 50px;
-    height: 100%;
+    width: 100px;
+
 }
-.carousel .carousel-action #carousel-action-prev{
-    transform:translateX(-50px)
-}
-.carousel .carousel-action #carousel-action-next{
-    transform:translateX(50px)
-}
+
 
 
 /*BUSINESSES SECTION*/
@@ -231,11 +223,17 @@ html{
     .home .home-content .text-2 {
         font-size: 54px;
     }
+    .about-text{
+        font-size: 1em;
+    }
 }
 
 @media (max-width: 844px){
     .max-width{
         padding: 0 50px;
+    }
+    .home .max-width{
+       margin: auto;
     }
     .menu-btn{
         display: block;
@@ -280,6 +278,25 @@ html{
     .home{
         background: url(img/banner.jpg) no-repeat center;
     }
+
+    .about-content{
+        justify-content: center;
+        display: unset;
+    }
+    .about-pic{
+        width: auto;
+    }
+    .about-text{
+        width: auto;
+    }
+
+    .business-content{
+        justify-content: center;
+    }
+    .business-content .card {
+        width: 80% !important;
+        margin: 18px 0;
+    }
 }
 
 @media (max-width: 380px){
@@ -289,8 +306,12 @@ html{
     .home .home-content .text-2 {
         font-size: 50px;
     }
-
+    .about-text{
+        width: 100%;
+        font-size: .8em;
+    }
 }
+
 
 .text-change1{
     animation: ani1 10s infinite;
