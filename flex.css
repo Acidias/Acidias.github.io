@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+}
+.name-flex{
+    background-color: blue;
+    width: 100wh;
+    height: 100vh;
+
+ 
+}
+div{
+    float: left;
+}
+.empty{
+    border: 3px solid black;
+    width: 45%;
+    height: 100vh;
+    float: left;
+}
+.box1{
+    border: 3px solid black;
+    width: 10%;
+    height: 16.5%;
+    float: left;
+}
+.box2{
+    border: 3px solid black;
+    width: 43%;
+    height: 16.5%;
+    float: left;
+}
+.box3{
+    border: 3px solid black;
+    width: 10%;
+    height: 16.5%;
+}
+.box4{
+    border: 3px solid black;
+    width: 43%;
+    height: 16.5%;
+}
+.box5{
+    border: 3px solid black;
+    width: 10%;
+    height: 33%;
+}
+.box6{
+    border: 3px solid black;
+    width: 43%;
+    height: 16.5%;
+}
+
+
+.test-flex{
+    background-color: rgb(255, 153, 0);
+    width: 100wh;
+    height: 100vh;
+}

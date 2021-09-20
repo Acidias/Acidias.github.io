@@ -124,32 +124,121 @@ html{
     color: rgb(13, 34, 172);
 }
 /*ABOUT SECTION*/
+.about{
+    height: 100%;
+}
 .about-pic{
-    width: 33%;
-   
+    width: 80%;
+    padding: 10px;
+    justify-self: center ;
 }
 .prof-pic{
     width: 100%;
-    border-radius: 5%;
+    border-radius: 50%;
+    border: 8px solid darkblue;
 
 }
+.about-left-quote{
+    text-align: center;
+}
 .column-right{
-    padding: 5px 20px 5px 20px;
+    padding: 0px 30px 5px 35px;
+    display: inline-grid;
+    grid-template-rows: auto;
 }
 
 .about-text{
-    width: 67%;
+    overflow: hidden;
     font-family: 'Anton', sans-serif;
     font-size: 1.4em;
     text-align: justify;
 
 }
+#moving-text1{
+    display: none;
+}
+.about-text-ani{
+    animation-name: hidding;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+.about-text-ani1{
+    position: relative;
+    transform: translate(900px);
+    animation-name: showing;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes hidding {
+    from {
+      transform: translate(0px);
+    }
+    to {
+      transform: translate(-900px);
+    }
+  }
+@keyframes showing {
+    from{
+        transform: translate(900px, -200px);
+    }
+    to {
+        transform: translate(0px, -200px);
+    }
+}
 .about-content{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
     align-items: center;
     justify-content: space-between ;
+    grid-template-columns: auto 2fr .1fr;
 }
+.about-button{
+   
+    position: relative;
+    align-self: center;
+}
+.about-button > button {
+    -webkit-appearance: none;
+    background: transparent;
+    border: 0;
+    outline:0;
+    transform: translateX(50px);
+  }
+  
+  svg {
+    padding: 5px;
+  }
+  
+  .about-arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -45px;
+    margin-left: -35px;
+    width: 70px;
+    height: 90px;
+  }
+    
+  .about-right {
+    left: 58%;
+  }
+ 
+  .about-right:hover polyline,
+  .about-right:focus polyline {
+    stroke-width: 3;
+  }
+  
+  .about-right:active polyline {
+    stroke-width: 6;
+    transition: all 100ms ease-in-out;
+  }
+  
+  polyline {
+    transition: all 250ms ease-in-out;
+  }
 
 /* PROJECTS SECTION*/
 .projects{
@@ -176,7 +265,7 @@ html{
 }
 
 .carousel .carousel-item-visible{
-    display: block;
+    display: flex;
 }
 .carousel .carousel-action{
     display: flex;

@@ -6,6 +6,7 @@
     <title>Learning - Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.scss">
     
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -53,19 +54,40 @@
             <div class="about-content">
                 <div class="column-left about-pic">
                     <img class="prof-pic" src="img/smallprof.png">
+                    <div class="about-left-quote">
+
+
+                        <span>Live as if you were to die tomorrow. learn as if you were to live forever</span>
+   
+   
+                    </div>
                 </div>
-                <div class="column-right text about-text">
-                    <span>
-                        Hi there!
+                <div class="column-right about-text">
+                    <span id="moving-text">
+                        <h1>Hi there!</h1> <br>
                         I Created this site to collect all my Projects and Businesses. Maybe one day I will share here my investing Portfolio as well.
                         All the requitment team who is here to hire me I just wanna say, I'm not a professional programmer, but sitting front of the computer for hours
                         the thing what I really enjoy. No matter I'm learning a new programm language or looking for a good company to invest in and making analysis about it. I love 
                         these things too much, even if I'm not paid for it, all my free time I invest to learn something new. 
                         The site may not be finished. Come back later if its looking bad. First I want to finish all section and after working to make it looking nice :)
-                    <h6>last update: 9/12/21</h6>
+                    <h6>last update: 9/20/21</h6>
                     </span>
-                </div>
+                    <span id="moving-text1">
+                        <h1>Hi there! </h1> 
+                        <span>I'm just practicing css Animation. </span>
+                        <h3>No way back! >.< </h3> 
+                    </span>
 
+
+                </div>
+                    <div id="about-button" class="about-button">
+                        <button class="about-arrow about-right" onclick="aboutTextAni()">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60px" height="80px" viewBox="0 0 50 80" xml:space="preserve">
+                              <polyline fill="none" stroke="#000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="
+                              0.375,0.375 45.63,38.087 0.375,75.8 "/>
+                            </svg>
+                          </button>
+                    </div>
 
             </div>
 
@@ -81,31 +103,32 @@
                 
                 <div class="carousel-action">
                     <button id="carousel-action-prev"><</button>
-
-                    <div class="carousel-item carousel-item-visible">
-                        <div class="project-text">
-                            <p>This website is created for our family business. In Serbia we have Restaruant and 50 beds for accomandation. We started this hospitality business in 2021.</p>
+                    
+                        <div class="carousel-item carousel-item-visible">
+                            <div class="project-text">
+                                <p>This website is created for our family business. In Serbia we have Restaruant and 50 beds for accomandation. We started this hospitality business in 2021.</p>
+                            </div>
+                            <div class="project-img">
+                                <a href="http://szekelytur.weblog.rs/"><img src="img/project-dani.jpg"></a>
+                            </div>
                         </div>
-                        <a href="http://szekelytur.weblog.rs/"><img src="img/project-dani.jpg"></a>
-                        
-                    </div>
-                
+                    
 
-                    <div class="carousel-item carousel-item">
-                        <div class="project-text">
-                            <p>Here I'm gonna write some text about the project you can see belowe</p>
-                        </div>    
-                        <a href="#home"><img src="img/project-portfolio.png"></a>
-                    </div>
-
-
-                    <div class="carousel-item carousel-item">
-                        <div class="project-text">
-                            <p>Here I'm gonna write some text about the project you can see belowe</p>
+                        <div class="carousel-item carousel-item">
+                            <div class="project-text">
+                                <p>Here I'm gonna write some text about the project you can see belowe</p>
+                            </div>    
+                            <a href="#home"><img src="img/project-portfolio.png"></a>
                         </div>
-                        <img src="img/banner.jpg">
-                    </div>
 
+
+                        <div class="carousel-item carousel-item">
+                            <div class="project-text">
+                                <p>Here I'm gonna write some text about the project you can see belowe</p>
+                            </div>
+                            <img src="img/banner.jpg">
+                        </div>
+                    
                     <button id="carousel-action-next">></button>
                 </div>
             
