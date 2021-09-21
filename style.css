@@ -305,7 +305,14 @@ html{
 .business .business-content .card:hover {
     background: rgb(13, 34, 172);
 }
+/*FOOTER*/
 
+#footer{
+    text-align: center;
+    width: auto;
+    padding: 5px;
+    background-color: rgb(140, 140, 140);
+}
 
 /*RESPONSIVE MEDIA QUERY*/
 @media (max-width: 1043px){

@@ -131,3 +131,9 @@ body, p{
     position: absolute;
     transform: translate(418%, -110%);
 }
+#footer{
+    text-align: center;
+    width: auto;
+    padding: 5px;
+    background-color: rgb(140, 140, 140);
+}
