@@ -1,133 +1,25 @@
-
-body, p{
-    font-family: fantasy;
+body{
     margin: 0;
+    background-color: darkgray;
 }
-#main{
-    background: LightGray;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-areas:
-      "header header "
-      "img-info tribute-info"
-      
+h1, h2, h3{
+    margin: 0;
 }
 #title{
-    grid-area: header;
-    background-color: darkcyan;
-    text-align: center;
-    font-size: 4em;
-}
-#title > p {
-    margin: 0;
-}
-#img-div > .img > img{
-    width: 300px;
-    height: 380px;
-    border-radius: 35%;
-}
-#img-div{
-    text-align: center;
-    align-self: center;
-}
-.img{
-    display: block;
     text-align: center;
 }
-#img-info{
-    grid-area: img-info;
-    background-color: brown;
+.responsive-projects{
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
 }
-#tribute-info{
-    grid-area: tribute-info;
-}
-#tribute-info > p {
+.card-text{
+    padding: 10px;
     text-align: justify;
-    padding: 2rem;
-    font-size: 1.5rem;
 }
 
-/* Timeline 
-@background: #252827;
-
-@color-primary: #004ffc;
-@color-light: white;
-@color-dim: #6c6d6d;
-@spacing: 50px;
-@radius: 4px;
-
-@date: 120px;
-@dotborder: 4px;
-@dot: 11px;
-@line: 4px;
-
-@font-title: 'Saira', sans-serif;
-@font-text: 'Chivo', sans-serif;
-
-.timeline{
-    border-left: 4px solid #004ffc;
-    border-bottom-right-radius: 4px;
-    border-top-right-radius: 4px;    
-    background: fade(white, 3%);
-    color: fade(white, 80%);
-    font-family: 'Chivo', sans-serif;  
-    margin: 50px auto;  
-    letter-spacing: 0.5px;   
-    position: relative;
-    line-height: 1.4em;
-    font-size: 1.03em;   
-    padding: 50px;   
-    list-style: none;
-    text-align: left;  
-    font-weight: 100;  
-    max-width: 30%; 
-}
-*/
-
-#companies-section{
-    padding: 34px 0;
-    margin: 0;
-    width: 100%;
-    background: #57625e;
-    text-align: center;
-}
-.timeline{
-    margin: auto;  
-    position: relative;
-    font-size: 1em;     
-    list-style: none; 
-    font-weight: 100;
-    max-width: 30%; 
-}
-.event-left{
-    border-left: 3px solid black;
-    border-bottom: 3px solid black;
-    text-align: left;
-    padding: 10px;
-}
-.event-right{
-    border-right: 3px solid black;
-    border-bottom: 3px solid black;
-    text-align: right;
-    padding: 10px;
-}
-.left-circle{
-    justify-self: center;
-    text-align: center;
-    background: #b6b6b6;
-    border: 3px solid black;
-    width: 100px;
-    height: 35px;
-    position: absolute;
-    transform: translate(-110%, 25%);
-}
-.right-circle{
-    justify-self: center;
-    text-align: center;
-    background: #b6b6b6;
-    border: 3px solid black;
-    width: 100px;
-    height: 35px;
-    position: absolute;
-    transform: translate(418%, -110%);
+#footer{
+    width: auto;
+    height: 100px;
+    background-color: rgb(140, 140, 140);
 }
