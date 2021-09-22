@@ -7,6 +7,12 @@ When I finished with project I will upload the Finished code to main branch (and
 
 Recent Comment UP. Older comments down...
 > P.S Sorry for my Perfect English, it could be worse... :P
+> 
+# 9/21/2021
+At the moment I'm focused for the FreeCodeCamp projects. I'll go trough their courses because my knowledge is very incomplete. But it's anoying because I always want to try something new and that try can take 2-3 hours when i recognise that I get out of the way to earn the FCC certificate. 
+I uploaded and connected all my projects. On my main Portfolio site you can check my FreeCodeCamp project at the section > Projects, and there you'll find all my current FCC's finished project.
+> P.S I'm coding almost all day, but sometimes I forgot to commit it to github >.< (Its 05:12am) Good night...
+
 # 9/11/2021:
 -Today I made a good progress with szekelytur.weblog.rs (in the future szekelytur.com) website. I need pictures about the hostel and pansion to finish the site. I belive I need only few more hours to finish everything.
 
