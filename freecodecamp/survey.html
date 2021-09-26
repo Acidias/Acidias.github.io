@@ -18,8 +18,41 @@
                     <input class="form-control" type="email" name="email" id="name" placeholder="Enter your Email here" required>    
                 </div>
                 <div class="form-group">
-                    <label id="label-number" for="number">Email</label>
+                    <label id="label-number" for="number">Age</label>
                     <input class="form-control" type="number" name="age" id="number" placeholder="How old are you?" min="18" max="99" required>    
+                </div>
+                <div class="form-group">
+                    <p>Which company will first land on mars with Humans?</p>
+                    <label>
+                        <input name="whichone" value="SpaceX" type="radio" class="input-radio" checked>SpaceX
+                    </label>
+                    <label>
+                        <input name="whichone" value="SpaceX" type="radio" class="input-radio">SpaceX
+                    </label>
+                    <label>
+                        <input name="whichone" value="SpaceX" type="radio" class="input-radio">SpaceX
+                    </label>    
+                </div>
+                <div class="form-group">
+                    <p>Where would you like to travel?</p>
+                    <label>
+                        <input name="prefer" value="mars" type="checkbox" class="input-checkbox">Mars
+                    </label>
+                    <label>
+                        <input name="prefer" value="stay" type="checkbox" class="input-checkbox">Stay On Earth
+                    </label>
+                    <label>
+                        <input name="prefer" value="moon" type="checkbox" class="input-checkbox">Moon
+                    </label>    
+                </div>
+                <div class="form-group">
+                    <label id="label-number" for="select">Just seleect one</label>
+                    <select class="form-control" name="dropdown" id="dropdown" required>
+                        <option disabled selected value="select">Please Select</option>
+                        <option value="thisOne">This one</option>
+                        <option value="orThisOne">Or this one</option>
+                        <option value="orrThisOne">You can choise even this if you want</option>
+                    </select>    
                 </div>
                 
                 <div class="form-group">
