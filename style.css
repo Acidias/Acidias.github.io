@@ -244,28 +244,37 @@ html{
 .projects{
     display: flex;
     justify-content: center;
+    height: 80vh;
 }
 .carousel {
-    max-width: 700px;
     position: relative;
+    
 }  
+
 .carousel .carousel-item .project-text{
     text-align: center;
     font-size: 16px;
     font-family: 'Anton', sans-serif;
     margin: 16px 0;
+    grid-area: 1;
+    height: 90px;
+    padding: 0 20px;
+    width: 500px;
+}
+.project-img{
+    grid-area: 2;
+    justify-self: center;
 }
 .carousel .carousel-item, .carousel .carousel-item-hidden{
     display: none;
 }
 .carousel .carousel-item img{
-    width: 100%;
-    max-width: 700px;
-    height: auto;
+    width: 500px;
+    height: 250px;
 }
 
 .carousel .carousel-item-visible{
-    display: flex;
+    display: grid;
 }
 .carousel .carousel-action{
     display: flex;
@@ -276,10 +285,11 @@ html{
 
 .carousel .carousel-action button{
     border: 0;
-    background: rgba(76, 76, 76, 0.102);
+    background: rgba(187, 187, 187, 0.37);
     cursor: pointer;
     font-weight: bold;
-    width: 100px;
+    width: 80px;
+   
 
 }
 
