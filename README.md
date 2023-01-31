@@ -29,7 +29,7 @@ it was so easy or I'm soo good for this.
 
 -I should learn how can I do version control here... 
 
--Continued with FreeCodeCamp responsive web desinger certification
+-Continued with FreeCodeCamp responsive web desinger certification.
 
 -Started my Portfolio website where I will collect all my Projects.
 
